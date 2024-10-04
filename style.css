@@ -1,0 +1,60 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+ list-style-type: none;
+  display: inline-block;
+  overflow: hidden;
+  
+}
+
+li a:hover{
+    color: rgb(63, 204, 250); 
+    cursor: pointer;
+}
+
+li{
+    float: left;
+  padding: 16px;
+  text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+button{
+    margin-top: 17px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 30x;
+    background-color: rgb(63, 204, 250);
+    color: white;
+    cursor: pointer;
+    border: none;
+   
+}
+button:hover{
+    background-color: rgb(0, 179, 255);
+}
+
+.logIn{
+    background-color: white;
+    color: black;
+}
+.logIn:hover{
+    background-color: white;
+    color: rgb(63, 204, 250);
+}
+hr{
+    margin: 10px;
+}
